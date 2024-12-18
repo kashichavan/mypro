@@ -1,0 +1,20 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creative Home Page</title>
+    <!-- Link to external CSS -->
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+</head>
+<body>
+    <h1 class="cool-heading">Welcome to the Home Page</h1>
+    <p class="subtext">This is a creatively styled homepage with interactive effects.</p>
+
+    <button id="magicButton">Click Me for Magic</button>
+
+    <!-- External JavaScript -->
+    <script src="{% static 'script.js' %}"></script>
+</body>
+</html>
